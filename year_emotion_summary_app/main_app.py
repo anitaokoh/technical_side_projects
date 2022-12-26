@@ -4,6 +4,7 @@ To control the frontend part of the application using streamlit and connect all 
 import streamlit as st
 import pandas as pd
 import numpy as np
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, TextClassificationPipeline , pipeline
 from sentiment_model import extract_sentiments
 from predict_emotion import model_wrap
 from plotly_viz import create_fig
