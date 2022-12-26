@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, TextClassificationPipeline , pipeline
 
-summarizer = pipeline("summarization",model="slauw87/bart_summarisation", max_length=50, truncation=True)
-tokenizer = AutoTokenizer.from_pretrained('philschmid/distilbert-base-multilingual-cased-sentiment-2')
-model = AutoModelForSequenceClassification.from_pretrained('philschmid/distilbert-base-multilingual-cased-sentiment-2')
-pipe = TextClassificationPipeline(model=model, tokenizer=tokenizer, top_k=6, max_length=10, truncation=True)
+# summarizer = pipeline("summarization",model="slauw87/bart_summarisation", max_length=50, truncation=True)
+# tokenizer = AutoTokenizer.from_pretrained('philschmid/distilbert-base-multilingual-cased-sentiment-2')
+# model = AutoModelForSequenceClassification.from_pretrained('philschmid/distilbert-base-multilingual-cased-sentiment-2')
+# pipe = TextClassificationPipeline(model=model, tokenizer=tokenizer, top_k=6, max_length=10, truncation=True)
 
 
 
