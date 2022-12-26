@@ -12,7 +12,6 @@ nltk
 mlem
 transformers
 torch
-subprocess
 streamlit
 plotly
 psutil
