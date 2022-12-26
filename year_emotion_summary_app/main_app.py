@@ -25,7 +25,7 @@ month_index = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 
 
-
+@st.cache
 def run_emotion_sent(data:list)->list:
     """
     To get the sentiment score of the user text input list , predict each of the text clusters
@@ -38,7 +38,7 @@ def run_emotion_sent(data:list)->list:
         emotion_pred.append(result)
     return emotion_pred
 
-
+@st.cache
 def viz_page():
     """
     Get a downloadable Chart image of the months' ratings for the year by calling the above functions.
