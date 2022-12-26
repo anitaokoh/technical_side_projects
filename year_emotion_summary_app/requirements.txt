@@ -12,8 +12,9 @@ nltk
 mlem
 transformers
 torch
-multiprocessing
+subprocess
 streamlit
 plotly
 psutil
 kaleido
+
