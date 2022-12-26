@@ -10,6 +10,11 @@ from plotly_viz import create_fig
 from  download_viz import get_table_download_link
 import json
 
+summarizer = pipeline("summarization",model="slauw87/bart_summarisation", max_length=50, truncation=True)
+tokenizer = AutoTokenizer.from_pretrained('philschmid/distilbert-base-multilingual-cased-sentiment-2')
+model = AutoModelForSequenceClassification.from_pretrained('philschmid/distilbert-base-multilingual-cased-sentiment-2')
+pipe = TextClassificationPipeline(model=model, tokenizer=tokenizer, top_k=6, max_length=10, truncation=True)
+
 
 with open('model/25-12-2022-08:30:05_cluster_map.json', 'r') as openfile:
     # Reading from json file
