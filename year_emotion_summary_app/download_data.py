@@ -1,5 +1,5 @@
 """
-To setup the environment by installing the libraries and downloading the data needed
+To start the environment by installing the libraries and downloading the data needed
 
 """
 
