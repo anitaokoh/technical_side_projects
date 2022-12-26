@@ -6,7 +6,7 @@ import sys
 from mlem.api import apply
 import json
 
-with open('model/25-12-2022-08:30:05_cluster_map.json', 'r') as openfile:
+with open('https://github.com/anitaokoh/technical_side_projects/blob/main/year_emotion_summary_app/model/25-12-2022-08:30:05_cluster_map.json', 'r') as openfile:
     # Reading from json file
     emotion_map = json.load(openfile)
 
