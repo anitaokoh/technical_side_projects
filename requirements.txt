@@ -16,4 +16,3 @@ streamlit
 plotly
 psutil
 kaleido
-subprocess
