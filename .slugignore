@@ -1,3 +1,8 @@
 data/
 .kaggle/
 *.csv
+archive/
+download_data.py
+building_model_and_evaluation.ipynb
+merge_data.py
+text_blob_sent.py
