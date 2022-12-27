@@ -131,3 +131,4 @@ dmypy.json
 __pycache__
 
 .Ds_Store
+.kaggle/
