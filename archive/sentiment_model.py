@@ -17,7 +17,7 @@ summarizer = pipeline("summarization",model="slauw87/bart_summarisation", max_le
 
 tb = Blobber(analyzer=NaiveBayesAnalyzer())
 
-def get_sentiments(text:str)->tuple:
+def extract_sentiments(text:str)->tuple:
     """
     To get the sentiment scores of the text . If the text is longer than 400 characters, it is first summarized and
     then predicted for the sentiment scores
@@ -33,6 +33,6 @@ def get_sentiments(text:str)->tuple:
     return  neg_score, pos_score
 
 if __name__== "__main__":  
-    neg_score, pos_score = get_sentiments("June was quite a depressing month I was sick the entire month it was so frustrating")
+    neg_score, pos_score = extract_sentiments("June was quite a depressing month I was sick the entire month it was so frustrating")
     print(neg_score, pos_score)
 

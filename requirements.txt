@@ -11,8 +11,9 @@ ipywidgets
 nltk
 mlem
 transformers
-torch
 streamlit
 plotly
 psutil
 kaleido
+
+

@@ -1,0 +1,6 @@
+.kaggle/
+archive/
+data/
+training_files/
+__pycache__/
+*.csv
