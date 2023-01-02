@@ -23,7 +23,7 @@ The project can be split into 2 parts chronologically.
 
 ### Model Building and emotion mapping
 - The enviroment and data download is done using the `download.py` file. All data used are saved in the folder called `data`. All libraries used are stored in `requirement.txt`file
-- In order to get more training data, the `training.csv` and `test.csv` in the image folder was merged into one file  using the `merge_data.py`. This result table has 50000 rows and two columns( text and label) consisting of 50% each positive and negative ground labels
+- In order to get more training data, the `training.csv` and `test.csv` in the image folder was merged into one file  using the `merge_data.py`. This result table has 50000 rows and two columns( text and label) consisting of 50% each positive and negative ground labels. Source data can be found in kaggle [here](https://www.kaggle.com/datasets/thedevastator/imdb-large-movie-review-dataset-binary-sentiment)
 - The model used for the text sentiment is TextBlob library. Using the `text_blob_sent.py` , all rows were ran resulting to producing the negative and positive scores of each text
 - The evaluation of the textblob sentiments and the building/saving of the kmeans model was captured in the `building_model_and_evaluation.ipynb` notebook
 - All model and emotion mapping files are saved in the folder called `model`
