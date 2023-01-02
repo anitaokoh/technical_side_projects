@@ -9,7 +9,7 @@ This app (powered by streamlit) helps predict the sentiment of your monthly summ
 
 All this emotions and month are they visualized into a line chart as a summary for the year
 
-You cam find the link to the app here
+You can find the link to the app [here](http://52.90.71.18:8501/)
 
 **Note that the link may go offline depending on when in the future you read this. If it is unavailable , feel free to clone this repository and run the `main_app.py` file.(Be sure to pip install all the libraries in the `requirement.txt` file before hand)**
 
