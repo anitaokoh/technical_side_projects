@@ -15,5 +15,5 @@ streamlit
 plotly
 psutil
 kaleido
-
+torch
 
