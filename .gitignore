@@ -134,3 +134,5 @@ __pycache__
 .kaggle/
 
 *.csv
+data/
+*.pem
