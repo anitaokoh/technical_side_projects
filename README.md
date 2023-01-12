@@ -14,6 +14,8 @@ You can find the link to the app [here](http://52.90.71.18:8501/)
 ### Video of the app
 ![streamlitapp](/streamlitapp.gif)
 
+Find article documentation [here](https://medium.com/data-de-mystified/building-a-text-emotion-analyser-app-c4858c790fae)
+
 **Note that the link may go offline depending on when in the future you read this. If it is unavailable , feel free to clone this repository and run the `main_app.py` file.(Be sure to pip install all the libraries in the `requirement.txt` file before hand)**
 
 ### Flow of Project
